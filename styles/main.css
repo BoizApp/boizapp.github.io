@@ -1,8 +1,21 @@
+@font-face {
+    font-family: 'catamaranblack';
+    src: url('https://boiz.app/fonts/catamaran-black-webfont.woff2') format('woff2'),
+         url('https://boiz.app/fonts/catamaran-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
+    font-size: 16px;
     margin: 1em;
 }
 
 main {
     margin: 0 auto;
     max-width: 70ch;
+}
+
+h1 {
+    font-family: 'catamaranblack';
 }
